@@ -1,0 +1,91 @@
+<head>
+    <title>Консультация</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://s3.amazonaws.com/icomoon.io/114779/Socicon/style.css?9ukd8d">
+    <link rel="stylesheet" href="testing.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js">
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Сноркус Домус</a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href='blog-everything.html'>БЛОГ</a></li>
+                    <li><a href="about-me.html">О СЕБЕ</a></li>
+                    <li><a href="check-yourself.html">ПРОВЕРЬ СЕБЯ</a></li>
+                    <li class="active"><a href="contact.html">СВЯЗАТЬСЯ</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="jumbotron text-center">
+        <h1>Консультация</h1>
+        <p>Есть вопросы? Пишите!</p>
+    </div>
+    <form class="container-fluid" id="test-form">
+        <div class="row">
+                    <div class="col-sm-6 form-group">
+                        <input class="form-control" id="name" name="Имя" placeholder="Имя" type="text" required>
+                    </div>
+                    <div class="col-sm-6 form-group">
+                        <input class="form-control" id="email" name="E-mail" placeholder="E-mail" type="email" required>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12 form-group"><input class="form-control" id="age" name="Сколько вам лет?" placeholder="Сколько вам лет?" rows="1" type="text" required></div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12 form-group"><input class="form-control" id="english" name="Как вы изучаете английский?" placeholder="Как вы изучаете английский?" rows="1" type="text" required></div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12 form-group"><input class="form-control" id="school" name="Какая у вас успеваемость в школе?" placeholder="Какая у вас успеваемость в школе?" rows="1" type="text" required></div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12 form-group"><input class="form-control" id="England" name="Насколько серьезно вы настроены на Англию?" placeholder="Насколько серьезно вы настроены на Англию?" rows="1" type="text" required></div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12 form-group"><input class="form-control" id="school" name="Вы уже видели секцию 'Проверь Себя'?" placeholder="Вы уже видели секцию 'Проверь Себя'?" rows="1" type="text" required></div>
+                </div>
+                <textarea class="form-control" id="comments" name="Ваше сообщение" placeholder="Ваше сообщение" rows="5"></textarea><br>
+                <div class="row">
+                    <div class="col-sm-12 form-group">
+                        <button class="btn btn-coll center-block" type="submit" id="postForm">Отправить</button>
+                    </div>
+                </div>
+            </form>
+    <footer class="footer">
+        <div class="row horizontal-central">
+            <div class="col-sm-6 subscribe">Найдите меня в cоц-cетях:</div>
+            <div class="col-sm-6">
+                <div class="row horizontal-central subscribe-icons">
+                    <a href="#">
+                        <div class="social-icon"><i class="socicon-youtube"></i></div>
+                    </a>
+                    <a href="#">
+                        <div class="social-icon"><i class="socicon-vkontakte"></i></div>
+                    </a>
+                    <a href="#">
+                        <div class="social-icon"><i class="socicon-instagram"></i></div>
+                    </a>
+                    <a href="#">
+                        <div class="social-icon"><i class="socicon-facebook"></i></div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="contact-form-function.js"></script>
+</body>

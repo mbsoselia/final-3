@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Сноркус Домус: Поступи в Лучшие Учебные Заведения Англии!</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://s3.amazonaws.com/icomoon.io/114779/Socicon/style.css?9ukd8d">
+    <link rel="stylesheet" href="testing.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js">
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+     <script type="text/javascript" src="http://cdn.jsdelivr.net/jquery.bootstrapvalidator/0.5.0/js/bootstrapValidator.min.js"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Сноркус Домус</a>
+            </div>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="active"><a href="#about">БЛОГ</a></li>
+                    <li><a href="about-me.html">О СЕБЕ</a></li>
+                    <li><a href="check-yourself.html">ПРОВЕРЬ СЕБЯ</a></li>
+                    <li><a href="contact.html">СВЯЗАТЬСЯ</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="jumbotron text-center">
+        <h1>А вы готовы к учебе в Англии?</h1>
+        <p>Узнайте зачем, как, куда и когда поступить.</p>
+        <form class="form-inline" id="test-form">
+            <div class="input-group">
+                <input type="text" name="email" class="form-control white-border" size="50" placeholder="Ваш E-Mail">
+                <div class="input-group-btn">
+                    <button type="submit" class="btn" id="postForm">Подписаться на Блог</button>
+                </div>
+            </div>
+        </form>
+    </div>
+    <div class="container-fluid">
+        <div class="row vertical-central horizontal-central smallscreen">
+            <div class="col-sm-6 text-right navigation-dropdown">Я хочу узнать больше</div>
+            <div class="col-sm-6 dropdown">
+                <button class="btn-drp" type="button" data-toggle="dropdown">обо Всём <span class="glyphicon glyphicon-menu-down"></span></button>
+                <ul class="dropdown-menu">
+                    <li><a href="blog-schools.html">о Школах</a></li>
+                    <li><a href="#">об Учебе</a></li>
+                    <li><a href="#">о Подготовке</a></li>
+                    <li><a href="#">об Университетах</a></li>
+                    <li><a href="#">обо всем и о главном</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row text-center">
+            <!--they suggest adding text-center-->
+            <div class="col-sm-6">
+                <div class="thumbnail">
+                    <img src="460*277.png" width="460" />
+                    <p>Description goes here</p>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="thumbnail">
+                    <img src="460*277.png" width="460" />
+                    <p>Description goes here</p>
+                </div>
+            </div>
+        </div>
+        <div class="row text-center">
+            <div class="col-sm-6">
+                <div class="thumbnail">
+                    <img src="460*277.png" width="460" />
+                    <p>Description goes here</p>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="thumbnail">
+                    <img src="460*277.png" width="460" />
+                    <p>Description goes here</p>
+                </div>
+            </div>
+        </div>
+        <div class="row text-center">
+            <div class="col-sm-6">
+                <div class="thumbnail">
+                    <img src="460*277.png" width="460" />
+                    <p>Description goes here</p>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="thumbnail">
+                    <img src="460*277.png" width="460" />
+                    <p>Description goes here</p>
+                </div>
+            </div>
+        </div>
+        <div class="row text-center">
+            <div class="col-sm-6">
+                <div class="thumbnail">
+                    <img src="460*277.png" width="460" />
+                    <p>Description goes here</p>
+                </div>
+            </div>
+            <div class="col-sm-6">
+                <div class="thumbnail">
+                    <img src="460*277.png" width="460" />
+                    <p>Description goes here</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="row horizontal-central">
+            <div class="col-sm-6 subscribe">Найдите меня в cоц-cетях:</div>
+            <div class="col-sm-6">
+                <div class="row horizontal-central subscribe-icons">
+                    <a href="#">
+                        <div class="social-icon"><i class="socicon-youtube"></i></div>
+                    </a>
+                    <a href="#">
+                        <div class="social-icon"><i class="socicon-vkontakte"></i></div>
+                    </a>
+                    <a href="#">
+                        <div class="social-icon"><i class="socicon-instagram"></i></div>
+                    </a>
+                    <a href="#">
+                        <div class="social-icon"><i class="socicon-facebook"></i></div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="form-function.js"></script>
+    <script>
+        $(document).ready(function() {
+            $(".dropdown").on("hide.bs.dropdown", function() {
+                $(".btn-drp").html('обо Всём <span class="glyphicon glyphicon-menu-down"></span>');
+            });
+            $(".dropdown").on("show.bs.dropdown", function() {
+                $(".btn-drp").html('обо Всём <span class="glyphicon glyphicon-menu-up"></span>');
+            });
+        });
+    </script>
+</body>
+
+</html>
